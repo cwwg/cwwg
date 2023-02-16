@@ -5,30 +5,28 @@
 
 # Summary
 
-Brief explanation of the feature.
-
-# Basic example
-
-If the proposal involves a new or changed API, include a basic code example.
-Omit this section if it's not applicable.
+Core members of CWWG need a well-defined, efficient, and asynchronous way to
+communicate with each other.
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
-
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
+Communicating well in a working group like this is essential since this group
+consists of diverse teams and people from all around the world. Also, since
+the core team members can be very busy with their day-to-day jobs, ways of
+communication should be well defined and efficient as possible.
 
 # Detailed design
 
-This is the bulk of the RFC. Explain the design in enough detail for somebody
-familiar with the CWWG to understand, and for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+1. Core team will work with 2 months long periods. Every 2 months, they will have
+a meeting regarding:
+  - The things that have been done until now.
+  - Active RFC's overview and planning for the next period.
+  - Reviewing of the feedbacks from Twitter, issues, or any other platforms.
+
+2. During a 2 month period, core team members should be active on issues, PR reviews
+and RFC discussions. CWWG will be helping people through issues asynchronously.
+
+3. For setting up the meetings and additional chats, telegram will be used.
 
 # Drawbacks
 
