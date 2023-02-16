@@ -1,6 +1,6 @@
 - Start Date: 2023-02-16
 - Reference Discussion: cwwg/cwwg#6
-- Implementation PR: cwwg/cwwg#9
+- Implementation PR: cwwg/cwwg#8
 
 # Summary
 
