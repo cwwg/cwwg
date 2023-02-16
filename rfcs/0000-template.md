@@ -1,7 +1,8 @@
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - Reference Discussion: (fill in the RFCs GitHub discussion. If it does not exist yet, create one. Example:  cwwg/cwwg#6)
 - Reference Issues: (OPTIONAL: fill in existing related issues, if any, else delete)
-- Implementation PR: (leave this empty. Example: cwwg/cwwg#9)
+- Introduction PR: (The PR that introudces this RFC. Example: cwwg/cwwg#8)
+- Implementation PR: (If applicable, a PR implementing the changes introduced by this RFC. Example: cwwg/cwwg#9)
 
 # Summary
 
