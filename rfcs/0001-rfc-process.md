@@ -36,7 +36,8 @@ Here's a detailed example of the creation of an RFC that defines a new documenta
 5. We create a new **Reference Discussion** on the [RFCs Discussions page](https://github.com/cwwg/cwwg/discussions/categories/rfcs) with the following title: "RFC: Documentation System".
 6. We edit `0000-documentation-system.md` to include references to the **Introduction PR** and **Reference Discussion** and push this change. 
 7. We discuss the PR in the **Reference Discussion**.
-8. Once someone from @cwwg/core approves the **Introduction PR**, the RFC gets merged and becomes active. When this happens, the RFC's number is changed from `0000` to the highest currently active RFC's number + 1.
+8. If you want to make a suggestion to an RFC that is in a PR, you can add a PR comment/suggestion to it.
+9. Once two members from @cwwg/core approve the **Introduction PR**, the RFC gets merged and becomes active. When this happens, the RFC's number is changed from `0000` to the highest currently active RFC's number + 1.
 
 # Drawbacks
 
