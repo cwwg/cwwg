@@ -17,7 +17,17 @@ The RFC process has the following structure:
 
 # Basic example
 
-We want to create an RFC which defines a new documentation system.
+This document.
+
+# Motivation
+
+We need to define our RFC process so that we know how the other RFCs will be structured.
+
+# Detailed design
+
+RFCs are listed in the `rfcs/` directory and follow the same structure as this RFC. If they are on branch `main`, then they are considered to be **active**. If they are still in a PR, then they are not active yet. Discussion surrounding the RFC happens in **GitHub Discussions**.
+
+Here's a detailed example of the creation of an RFC that defines a new documentation system:
 
 1. We create a new branch: `rfc-documentation-system`. Either from a fork or on the monorepo itself.
 2. We run `cd rfcs && cp 0000-template.md 0000-documentation-system.md`. Note that the number of a new RFC is always 0000.
@@ -26,46 +36,17 @@ We want to create an RFC which defines a new documentation system.
 5. We create a new **Reference Discussion** on the [RFCs Discussions page](https://github.com/cwwg/cwwg/discussions/categories/rfcs) with the following title: "RFC: Documentation System".
 6. We edit `0000-documentation-system.md` to include references to the **Introduction PR** and **Reference Discussion** and push this change. 
 7. We discuss the PR in the **Reference Discussion**.
-8. Once someone from @cwwg/core approves the **Introduction PR**, the RFC gets merged and becomes active.
-
-# Motivation
-
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
-
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
-
-# Detailed design
-
-This is the bulk of the RFC. Explain the design in enough detail for somebody
-familiar with the CWWG to understand, and for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+8. Once someone from @cwwg/core approves the **Introduction PR**, the RFC gets merged and becomes active. When this happens, the RFC's number is changed from `0000` to the highest currently active RFC's number + 1.
 
 # Drawbacks
 
-Why should we *not* do this? Please consider:
-
-- implementation cost, both in term of code size and complexity
-- whether the proposed feature can be implemented in user space
-- the impact on teaching people about the CWWG
-- integration of this feature with other existing and planned features
-
-There are tradeoffs to choosing any path. Attempt to identify them here.
+- Having a formal RFC system may seem too bureaucratic to some.
+- RFCs may become overly verbose. We should keep them as short and focused as possible, while still keeping them unambiguous.
 
 # Alternatives
 
-What other designs have been considered? What is the impact of not doing this?
+None so far. We mostly based this on [Vue.js' RFC process](https://github.com/vuejs/rfcs/blob/master/0000-template.md). We propose to try this out, and adjust the process if needed.
 
 # Adoption strategy
 
-Will this RFC introduce breaking changes of any kind? If so, how will we facilitate migrations?
-
-# Unresolved questions
-
-Optional, but suggested for first drafts. What parts of the design are still
-TBD?
+Since there are no other RFCs yet, this RFC will not introduce any breaking changes. Adoption should be straightforward, anyone reading this RFC should immediately understand how the process will work.
